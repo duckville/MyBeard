@@ -38,7 +38,6 @@ import subprocess
 
 sys.path.insert(1, os.path.abspath(os.path.join(os.path.dirname(__file__), 'lib')))
 
-# https://mail.python.org/pipermail/python-dev/2014-September/136300.html
 if sys.version_info >= (2, 7, 9):
     import ssl
 
